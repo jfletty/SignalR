@@ -1,8 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <UserSecretsId>aspnet-SignalR.Server-4CCA77E8-2EAA-4353-ABED-28BFD2E0F5C8</UserSecretsId>
+        <AssemblyName>SignalR.Demo.Server</AssemblyName>
+        <RootNamespace>SignalR.Demo.Server</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

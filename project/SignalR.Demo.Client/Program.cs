@@ -1,14 +1,14 @@
 ﻿using System;
 using Microsoft.AspNetCore.SignalR.Client;
 
-namespace SignalR.Client
+namespace SignalR.Demo.Client
 {
     class Program
     {
         private static bool ShouldClose;
         private static string User;
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             var connection = new HubConnectionBuilder().WithUrl("https://localhost:5001/chatHub").Build();
             connection.StartAsync().Wait();

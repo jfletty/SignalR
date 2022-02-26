@@ -2,9 +2,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SignalR_v2;
 
-namespace SignalR.Server
+namespace SignalR.Demo.Server
 {
     public class Startup
     {

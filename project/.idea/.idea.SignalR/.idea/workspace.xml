@@ -9,16 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91c44143-433a-4eba-8647-3964e462acd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignalR.Demo.Client/MessageHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignalR.Demo.UnitTests/SignalR.Demo.Server.Tests/ChatHubTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignalR.Demo.UnitTests/SignalR.Demo.UnitTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignalR.Demo.UnitTests/SignalRDemoClientTests/MessageHandlerTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SignalR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignalR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalR.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Client/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalR.Client/SignalR.Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Client/SignalR.Demo.Client.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalR.Server/ChatHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/ChatHub.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalR.Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalR.Server/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalR.Server/SignalR.Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/SignalR.Demo.Server.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalR.Server/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalR.Server/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalR.Demo.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Client/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalR.Demo.Server/ChatHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/ChatHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalR.Demo.Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalR.Demo.Server/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.Demo.Server/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalR.Demo.Server/appsettings.Development.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SignalR.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SignalR.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +28,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SignalR.Demo.UnitTests/SignalRDemoClientTests/MessageHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4e03d842ba3f421dac863ba47d18584860868/fb/7ca0a386/IClientProxy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4c6f6e4bd53ba6e81522ed4ce7204b9ee6d564f963321c837634387e6178620/ClientProxyExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -41,12 +46,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1yFWKn8tlKyXpAaRnJO2nZhS1Mw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -155,6 +163,7 @@
       <workItem from="1632084956336" duration="120000" />
       <workItem from="1632092704730" duration="1232000" />
       <workItem from="1645848667017" duration="276000" />
+      <workItem from="1645911399039" duration="2913000" />
     </task>
     <servers />
   </component>
@@ -162,7 +171,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -176,6 +185,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
